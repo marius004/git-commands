@@ -18,3 +18,9 @@ same as git stash, but has a more descriptive message
 ## 6. git stash drop {Index}
 delete a stash by its Index
 
+## 7. git stash pop {Index}
+same as git stash apply, but deletes the stash from the list
+
+## 8. git stash clear
+remove all stashes
+
